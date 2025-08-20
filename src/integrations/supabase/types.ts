@@ -14,7 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      faqs: {
+        Row: {
+          ativo: boolean | null
+          categoria: string | null
+          created_at: string
+          id: string
+          ordem: number | null
+          pergunta: string
+          resposta: string
+          updated_at: string
+        }
+        Insert: {
+          ativo?: boolean | null
+          categoria?: string | null
+          created_at?: string
+          id?: string
+          ordem?: number | null
+          pergunta: string
+          resposta: string
+          updated_at?: string
+        }
+        Update: {
+          ativo?: boolean | null
+          categoria?: string | null
+          created_at?: string
+          id?: string
+          ordem?: number | null
+          pergunta?: string
+          resposta?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
