@@ -98,7 +98,20 @@ export const TidioConfig: React.FC = () => {
             <h4 className="font-semibold mb-2">Resposta Padrão</h4>
             <p className="text-sm text-muted-foreground mb-2">Configure esta mensagem como resposta padrão quando o bot não souber responder:</p>
             <div className="p-3 bg-muted rounded-md text-sm">
-              "Desculpe, não encontrei uma resposta para sua pergunta. Vou transferir você para um de nossos atendentes no WhatsApp para ajudá-lo melhor! 📱 WhatsApp: (95) 99999-9999"
+              "Olá! Não encontrei uma resposta específica para sua pergunta, mas nossa equipe pode ajudá-lo melhor! 📱 Entre em contato pelo WhatsApp: (95) 99999-9999"
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-2">Avatar Personalizado</h4>
+            <p className="text-sm text-muted-foreground mb-2">
+              O avatar do chatbot foi personalizado automaticamente com a imagem enviada. 
+              O CSS foi aplicado para remover o texto "converse conosco" e personalizar o ícone.
+            </p>
+            <div className="p-3 bg-muted rounded-md text-xs">
+              ✅ Avatar personalizado aplicado<br />
+              ✅ Texto removido do widget<br />
+              ✅ Efeitos hover configurados
             </div>
           </div>
 
